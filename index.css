@@ -1,0 +1,111 @@
+body {
+    font-family: Helvetica;
+    color: seashell; 
+    text-align: center;
+    background-color: black; 
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex; 
+    position: fixed; 
+    width: 100%;
+    /* for up-down alignment */
+    align-items: center;
+    /* for let-right alignment */
+    justify-content: space-between;
+}
+
+#logo-image {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#nav-bar li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+#nav-bar li a {
+    text-decoration: none;
+    color: seashell;
+}
+
+#mission-statement {
+    margin: 0 auto;
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#tea-of-the-month {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.tea-images {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.tea-images img {
+    width: 300px;
+    height: 200px;
+}
+
+#store-locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    padding: 0 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#store-locations h2 {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#location-container {
+    width: 100%;
+    display: flex;
+}
+
+.location {
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#contact-info {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 10px;
+}
